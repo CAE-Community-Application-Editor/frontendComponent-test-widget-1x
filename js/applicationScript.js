@@ -33,7 +33,8 @@
 var client;
 
 var init = function() {
-  var y = 0;
+  var y = 0; 
+  alert(y);
   var iwcCallback = function(intent) {
     // define your reactions on incoming iwc events here 
     console.log(intent);
